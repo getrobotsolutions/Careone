@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseCommand.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseEvent.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/LogConsole.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/Language.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="maincontents.js"></script>
+    <script src="boots/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="boots/css/bootstrap.min.css">
+    
+    <link href="css/Main.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+
+    </style>
+</head>
+
+
+<body  onbeforeunload="JSUnload()" ondragstart="return false;" ondrop="return false;" style="-ms-user-select:none;" oncontextmenu="return false;">
+
+  <header onclick="">
+    <div class="config" onclick="FC_ContentsCall('Config')">
+        <img src="assets/home-config.png" height="80">
+    </div>
+    <!--<div class="img-home" onclick="location.href ='maincontents.htm'"></div>-->
+    <div class="logo">
+      <!--<img src="assets/logo-white.png" onclick="ShowKeyboard()" width="">-->
+    </div>
+
+  </header>
+
+  <section class="main-content">
+    <div class="screen-nav">
+      <div class="col-sm-4" onclick="FC_ContentsCall('screen1')">Screen 1</div>
+      <div class="col-sm-4" onclick="FC_ContentsCall('screen2')">Screen 2</div>
+      <div class="col-sm-4" onclick="FC_ContentsCall('screen3')">Screen 3</div>
+
+    </div>
+  </section>
+
+  <footer>
+    <!--<img src="assets/footer.png" width="700">-->
+  </footer>
+  <div id="dialog-overlay"></div>
+ <div id="dialog-box" style="">
+      <a href="#" class="button close">Close</a>
+      <div class="dialog-content">
+        <div id="dialog-message">
+          
+        </div>
+        </div>
+      </div>
+
+
+ 
+  <style type="text/css">
+    
+  .main-content {
+    height: 1400px;
+    margin-top: 0;
+    padding-top: 10px;
+/*    background-image: url(assets/home-bg.png);*/
+  background-size: 1080px;
+  background-position:  0 -200px;
+  background-repeat: no-repeat;
+    /*border-bottom: 10px solid #1f3d7c;
+    background-image: url(assets/background.png);
+    background-size: 1520px;*/
+}header{
+  background-color: transparent;
+}
+/*body{
+background-color: #004990;
+
+}*/
+header .logo img {
+  width: 550px;
+}
+.screen-nav{
+      
+      color: #000;
+      font-size: 60px;
+    }
+    .screen-nav div{
+        border:2px solid grey;
+        border-radius: 5px;
+        width: 30%;
+    margin: 18px;
+    text-align: center;
+    padding: 50px 10px;
+    }
+  </style>
+<script>
+
+   
+    </script>
+
+<script>
+    
+</script>
+</body>
+</html>
