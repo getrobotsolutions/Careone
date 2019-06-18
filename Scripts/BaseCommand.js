@@ -98,14 +98,15 @@ function PlaySpeech2(speechString)
 }
 function PlaySpeech(speechString)
 {
-    dataKey = speechString;
+    /*dataKey = speechString;
     console.log("sending Key:" + speechString);
 
     $.ajax({
         type: "GET",
         data: { key: dataKey},
         url: "/api/sendresponse"
-    });
+    });*/
+    window.external.PlaySpeech(speechString);
 }
 
 function StopSpeech()
