@@ -57,7 +57,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
             break;
         case "Selfie":
             //PlaySpeech(speak[3]);
-            location.href = "Contents/G_Selfie/index.html";
+            location.href = "Contents/Selfie/index.html";
             break;
         case "Avatar":
             //PlaySpeech(speak[3]);
@@ -171,25 +171,25 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("You look nice, I like you, please tap my screen to begin.");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Hello, my name is Tracey");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Come take a picture with me.");
+        window.external.PlaySpeech("Take a picture with me");
         
     }
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Check out my app to learn more about Crown bio.");
+            window.external.PlaySpeech("Let me tell you a joke");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
         SetVolume(1);
-       window.external.PlaySpeech("Ask me a question?");
+       window.external.PlaySpeech("Want to see me dance?");
         
     }
     if(btn_info[4] == '1'){

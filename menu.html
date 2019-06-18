@@ -33,7 +33,7 @@
   <section class="main-content">
     <div class="navigation">
 
-      <div class="col-sm-12 navigation-box" style="" onclick="FC_ContentsCall('Jokes')">
+      <div class="col-sm-12 navigation-box" style="" onclick="GetJoke()">
         <img src="assets/icons/joke.png" class="navigation-icon">
         <h2 class="navigation-text">JOKES</h2> 
       </div>
@@ -91,15 +91,18 @@
   </style>
   <script type="text/javascript">
    
-    /*function redirectToSS(){
-      window.location.href = "maincontents.htm";
-    }
-    var tempTime=setTimeout(redirectToSS,10000);
+    
+    function GetJoke(){
+    var temp=Math.floor((Math.random() * 6) + 1);
+    PlaySpeech(jokes[temp]);
+    //alert(jokes[temp]);
+  }
+  /*var initialJokeTime=setTimeout(GetJoke,30000);
 
-    $(document).click(function(event) {
-        clearTimeout( tempTime );
-        tempTime=setTimeout(redirectToSS,240000);
-    });*/
+  $(document).click(function(event) {
+      clearTimeout( initialJokeTime );
+      initialJokeTime=setTimeout(GetJoke,120000);
+  });*/
   </script>
 </body>
 </html>
