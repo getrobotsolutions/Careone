@@ -225,7 +225,7 @@ function SendEmail()
     var tempEmail=message;
     //var addr = "paul@robotaisolutions.com";
     var subject = "Your robot selfie";
-    var body = "Thank you for visiting Blase Manufacturing! Your robot selfie is attached.";
+    var body = "Please find your photo attached.";
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
     //var pswd = "123456789K";
